@@ -5,6 +5,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Stream;
 
 import com.jv.bookshelf.model.Book;
 import com.jv.bookshelf.model.Category;
@@ -39,16 +40,20 @@ public class Bookshelf {
 		return null;
 	}
 	
-	public void print() {
+	public void printAll() {
 		System.out.println("\nBOOKSHELF:\n");
 		BOOKS.stream().forEach(System.out::println);
 	}
 	
-	public void printByCategories() {
+	public void printByCategory(Category category) {
+		Stream.empty();
+	}
+	
+	public void printCountByCategories() {
 		// TO-DO   print book count by categories
 	}
 	
-	public void printByStatus() {
+	public void printCountByStatus() {
 		// TO-DO   print book count for read and unread books
 	}
 	

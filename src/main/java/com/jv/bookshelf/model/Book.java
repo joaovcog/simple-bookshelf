@@ -130,7 +130,7 @@ public class Book {
 
 	@Override
 	public String toString() {
-		return id + " | " + title + " | " + author + " | " + category.getDescription() + " | " + pages + " | " + editionDate + " | " + (read ? "read" : "unread");
+		return id + " | " + title + " | " + author + " | " + category.getDescription() + " | " + pages + " | " + editionDate + " | " + (read ? "read" : "not read");
 	}
 
 }

@@ -7,11 +7,11 @@ public class App {
 	private static final Bookshelf BOOKSHELF = new Bookshelf();
 	
 	public static void main(String[] args) {
-		BOOKSHELF.print();
+		BOOKSHELF.printAll();
 		BOOKSHELF.sortByTitle();
-		BOOKSHELF.print();
+		BOOKSHELF.printAll();
 		BOOKSHELF.sortByPageNumber();
-		BOOKSHELF.print();
+		BOOKSHELF.printAll();
 	}
 	
 }
